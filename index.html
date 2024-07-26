@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="landingpage.css" />
+  <link rel="stylesheet" href="media-query.css">
+
+  <!-- GOOGE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+
+  <!-- ICONS -->
+  <script src="https://kit.fontawesome.com/c6026485e1.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <section>
+    <header class="header">
+      <div class="logo-div">
+        <img class="logo" src="images/logo.png" alt="">
+        <h1 class="logo-text">Prime<br>Patties</h1>
+      </div>
+      <nav class="nav-menu">
+        <ul>
+          <button class="close-menu-button">
+            <svg width="35" height="35" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21 12c0-4.969-4.031-9-9-9s-9 4.031-9 9 4.031 9 9 9 9-4.031 9-9Z"></path>
+              <path d="M15 15 9 9"></path>
+              <path d="m9 15 6-6"></path>
+            </svg>
+          </button>
+          <a href="#best-seller-section" class="header-nav-button">
+            <li>
+              <i class="fa-solid fa-fire"></i>
+              Hot
+            </li>
+          </a>
+          <a href="#recipe-section" class="header-nav-button">
+            <li><i class="fa-solid fa-burger"></i>Recipe</li>
+          </a>
+          <a href="#review-section" class="header-nav-button">
+            <li><i class="fa-solid fa-book-open-reader"></i>Reviews</li>
+          </a>
+          <a href="#about-section" class="header-nav-button">
+            <li><i class="fa-solid fa-circle-info"></i>About us</li>
+          </a>
+        </ul>
+        <div class="nav-triangle"></div>
+      </nav>
+      <div class="order-now-and-menu-div">
+        <div class="order-now-div">
+          <a href="" class="order-now header-order-now">
+            <svg class="cart-icon" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round"
+              stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9 20a1 1 0 1 0 0 2 1 1 0 1 0 0-2z"></path>
+              <path d="M20 20a1 1 0 1 0 0 2 1 1 0 1 0 0-2z"></path>
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg> ORDER NOW
+          </a>
+        </div>
+        <div>
+          <a class="menu-button">
+            <svg width="30" height="30" fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 18h18v-2H3v2Zm0-5h18v-2H3v2Zm0-7v2h18V6H3Z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+
+    </header>
+    <div class="main-section">
+      <div class="title-and-icon-div">
+        <div class="icon-div">
+          <a href="" class="icons"><svg width="25" height="25" fill="none" stroke="currentColor" stroke-linecap="round"
+              stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+            </svg></a>
+          <a href="" class="icons"><svg width="25" height="25" fill="none" stroke="currentColor" stroke-linecap="round"
+              stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5 0-.278-.028-.556-.08-.83A7.72 7.72 0 0 0 23 3Z">
+              </path>
+            </svg></a>
+          <a href="" class="icons"><svg width="25" height="25" fill="none" stroke="currentColor" stroke-linecap="round"
+              stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <path d="M17.5 6.5h.01"></path>
+            </svg></a>
+        </div>
+        <div class="text-div">
+          <h3>Treat your cravings. Try our new</h3>
+          <h1>Cheese Overload Burger</h1>
+          <p>Indulge in cheesy perfection with our juicy beef patty, topped with a blend of melted cheddar, Swiss, and
+            American cheeses. Nestled in a toasted brioche bun with crispy lettuce, ripe tomatoes, and caramelized
+            onions, it's a cheese lover's dream come true!</p>
+          <a href="" class="order-now">
+            <svg class="cart-icon" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round"
+              stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9 20a1 1 0 1 0 0 2 1 1 0 1 0 0-2z"></path>
+              <path d="M20 20a1 1 0 1 0 0 2 1 1 0 1 0 0-2z"></path>
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg> ORDER NOW
+          </a>
+        </div>
+      </div>
+      <div class="big-burger-div">
+        <img src="images/big-burger-landing-page.png" alt="">
+      </div>
+      <div class="yellow-background"></div>
+    </div>
+
+  </section>
+
+  <section id="best-seller-section" class="section">
+    <div class="bs-text-div section-title-div">
+      <p>&#8212; Best Seller &#8212;</p>
+      <h1>Discover Our <span>Top Picks</span></h1>
+
+    </div>
+    <div>
+      <div class="bs-item-div">
+        <a href="">
+          <div>
+            <h2>Ultimate Double Burger</h2>
+            <p>A mouthwatering masterpiece with two juicy patties, melted cheese, and our signature sauce.</p>
+            <h1>$3.99</h1>
+            <img src="images/burger-1.png" alt="">
+          </div>
+        </a>
+        <a href="">
+          <div>
+            <h2>Classic Cheese Burger</h2>
+            <p>A timeless favorite with a juicy patty, fresh veggies, and a perfectly toasted bun.</p>
+            <h1>$3.00</h1>
+            <img src="images/burger-2.png" alt="">
+          </div>
+        </a>
+        <a href="">
+          <div>
+            <h2>Cheese Overload Burger</h2>
+            <p>A decadent delight with layers of melted cheese, juicy patty, and veggies, all in a toasted bun.</p>
+            <h1>$4.50</h1>
+            <img src="images/burger-3.png" alt="">
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="bs-yellow-background"></div>
+  </section>
+
+  <section id="recipe-section" class="section">
+    <div class="rcp-text-div section-title-div">
+      <p>&#8212; Our Recipe &#8212;</p>
+      <h1>Best Quality Item <span>Ingredients</span></h1>
+    </div>
+    <div class="recipe-div">
+      <div class="recipe-image-div"><img src="images/recipe.png" alt=""></div>
+    </div>
+    <img src="images/recipe-bg-1.png" alt="" class="recipe-bg recipe1">
+    <img src="images/recipe-bg-1.png" alt="" class="recipe-bg recipe2">
+    <img src="images/recipe-bg-2.png" alt="" class="recipe-bg recipe3">
+    <img src="images/recipe-bg-3.png" alt="" class="recipe-bg recipe4">
+  </section>
+
+  <section id="review-section" class="section">
+    <div class="rvw-text-div section-title-div">
+      <p>&#8212; Testimonials &#8212;</p>
+      <h1>Customer's<span> Feedback</span></h1>
+    </div>
+    <div class="reviews-container">
+      <div class="review-div">
+        <div class="review-image-div">
+          <img src="images/author1.png" alt="">
+        </div>
+        <div class="review-content-div">
+          <div class="review-text">
+            <p>
+              "The Cheese Overload Burger was everything I hoped for and more. Packed with layers of gooey cheese and a
+              perfectly cooked patty, it was a true indulgence. The fresh veggies and toasted bun balanced the richness
+              of the cheese perfectly."
+            </p>
+          </div>
+          <div class="review-author">
+            <p>&#8212;Ava Martinez</p>
+          </div>
+          <div class="review-star">
+            <svg width="16" height="16" fill="#e99f46" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18.469 22.5a.75.75 0 0 1-.44-.14L12 17.99l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.965-6.093-4.178A.75.75 0 0 1 1.5 9h7.518l2.268-6.981a.75.75 0 0 1 1.427 0l2.27 6.984H22.5a.75.75 0 0 1 .424 1.369l-6.096 4.176 2.35 6.963a.75.75 0 0 1-.71.99Z">
+              </path>
+            </svg>
+            <svg width="16" height="16" fill="#e99f46" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18.469 22.5a.75.75 0 0 1-.44-.14L12 17.99l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.965-6.093-4.178A.75.75 0 0 1 1.5 9h7.518l2.268-6.981a.75.75 0 0 1 1.427 0l2.27 6.984H22.5a.75.75 0 0 1 .424 1.369l-6.096 4.176 2.35 6.963a.75.75 0 0 1-.71.99Z">
+              </path>
+            </svg>
+            <svg width="16" height="16" fill="#e99f46" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18.469 22.5a.75.75 0 0 1-.44-.14L12 17.99l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.965-6.093-4.178A.75.75 0 0 1 1.5 9h7.518l2.268-6.981a.75.75 0 0 1 1.427 0l2.27 6.984H22.5a.75.75 0 0 1 .424 1.369l-6.096 4.176 2.35 6.963a.75.75 0 0 1-.71.99Z">
+              </path>
+            </svg>
+            <svg width="16" height="16" fill="#e99f46" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18.469 22.5a.75.75 0 0 1-.44-.14L12 17.99l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.965-6.093-4.178A.75.75 0 0 1 1.5 9h7.518l2.268-6.981a.75.75 0 0 1 1.427 0l2.27 6.984H22.5a.75.75 0 0 1 .424 1.369l-6.096 4.176 2.35 6.963a.75.75 0 0 1-.71.99Z">
+              </path>
+            </svg>
+            <svg width="16" height="16" fill="#e99f46" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18.469 22.5a.75.75 0 0 1-.44-.14L12 17.99l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.965-6.093-4.178A.75.75 0 0 1 1.5 9h7.518l2.268-6.981a.75.75 0 0 1 1.427 0l2.27 6.984H22.5a.75.75 0 0 1 .424 1.369l-6.096 4.176 2.35 6.963a.75.75 0 0 1-.71.99Z">
+              </path>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="review-div">
+        <div class="review-image-div">
+          <img src="images/author2.png" alt="">
+        </div>
+        <div class="review-content-div">
+          <div class="review-text">
+            <p>
+              "The Classic Cheese Burger was excellent! The patty was juicy and tender, the cheese was perfectly melted,
+              and the fresh veggies added a nice crunch. The bun was toasted just right, making the whole burger come
+              together perfectly."
+            </p>
+          </div>
+          <div class="review-author">
+            <p>&#8212;Anne Johnson</p>
+          </div>
+          <div class="review-star">
+            <svg width="16" height="16" fill="#e99f46" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18.469 22.5a.75.75 0 0 1-.44-.14L12 17.99l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.965-6.093-4.178A.75.75 0 0 1 1.5 9h7.518l2.268-6.981a.75.75 0 0 1 1.427 0l2.27 6.984H22.5a.75.75 0 0 1 .424 1.369l-6.096 4.176 2.35 6.963a.75.75 0 0 1-.71.99Z">
+              </path>
+            </svg>
+            <svg width="16" height="16" fill="#e99f46" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18.469 22.5a.75.75 0 0 1-.44-.14L12 17.99l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.965-6.093-4.178A.75.75 0 0 1 1.5 9h7.518l2.268-6.981a.75.75 0 0 1 1.427 0l2.27 6.984H22.5a.75.75 0 0 1 .424 1.369l-6.096 4.176 2.35 6.963a.75.75 0 0 1-.71.99Z">
+              </path>
+            </svg>
+            <svg width="16" height="16" fill="#e99f46" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18.469 22.5a.75.75 0 0 1-.44-.14L12 17.99l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.965-6.093-4.178A.75.75 0 0 1 1.5 9h7.518l2.268-6.981a.75.75 0 0 1 1.427 0l2.27 6.984H22.5a.75.75 0 0 1 .424 1.369l-6.096 4.176 2.35 6.963a.75.75 0 0 1-.71.99Z">
+              </path>
+            </svg>
+            <svg width="16" height="16" fill="#e99f46" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18.469 22.5a.75.75 0 0 1-.44-.14L12 17.99l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.965-6.093-4.178A.75.75 0 0 1 1.5 9h7.518l2.268-6.981a.75.75 0 0 1 1.427 0l2.27 6.984H22.5a.75.75 0 0 1 .424 1.369l-6.096 4.176 2.35 6.963a.75.75 0 0 1-.71.99Z">
+              </path>
+            </svg>
+            <svg width="16" height="16" fill="none" stroke="#e99f46" stroke-linejoin="round" stroke-width="1"
+              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M22.5 9.75h-8.063L12 2.25l-2.438 7.5H1.5l6.563 4.5-2.532 7.5L12 17.062l6.469 4.688-2.532-7.5 6.563-4.5Z">
+              </path>
+              <path fill="#e99f46" stroke="none" d="M12 2.25v14.813L5.531 21.75l2.532-7.5L1.5 9.75h8.063L12 2.25Z">
+              </path>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="review-div">
+        <div class="review-image-div">
+          <img src="images/author3.png" alt="">
+        </div>
+        <div class="review-content-div">
+          <div class="review-text">
+            <p>
+              "The Ultimate Double Burger was a real standout. The two patties were juicy and flavorful, and the melted
+              cheese added a delicious richness. Fresh veggies and the signature sauce made every bite fantastic."
+            </p>
+          </div>
+          <div class="review-author">
+            <p>&#8212;Ethan Parker</p>
+          </div>
+          <div class="review-star">
+            <svg width="16" height="16" fill="#e99f46" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18.469 22.5a.75.75 0 0 1-.44-.14L12 17.99l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.965-6.093-4.178A.75.75 0 0 1 1.5 9h7.518l2.268-6.981a.75.75 0 0 1 1.427 0l2.27 6.984H22.5a.75.75 0 0 1 .424 1.369l-6.096 4.176 2.35 6.963a.75.75 0 0 1-.71.99Z">
+              </path>
+            </svg>
+            <svg width="16" height="16" fill="#e99f46" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18.469 22.5a.75.75 0 0 1-.44-.14L12 17.99l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.965-6.093-4.178A.75.75 0 0 1 1.5 9h7.518l2.268-6.981a.75.75 0 0 1 1.427 0l2.27 6.984H22.5a.75.75 0 0 1 .424 1.369l-6.096 4.176 2.35 6.963a.75.75 0 0 1-.71.99Z">
+              </path>
+            </svg>
+            <svg width="16" height="16" fill="#e99f46" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18.469 22.5a.75.75 0 0 1-.44-.14L12 17.99l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.965-6.093-4.178A.75.75 0 0 1 1.5 9h7.518l2.268-6.981a.75.75 0 0 1 1.427 0l2.27 6.984H22.5a.75.75 0 0 1 .424 1.369l-6.096 4.176 2.35 6.963a.75.75 0 0 1-.71.99Z">
+              </path>
+            </svg>
+            <svg width="16" height="16" fill="#e99f46" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18.469 22.5a.75.75 0 0 1-.44-.14L12 17.99l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.965-6.093-4.178A.75.75 0 0 1 1.5 9h7.518l2.268-6.981a.75.75 0 0 1 1.427 0l2.27 6.984H22.5a.75.75 0 0 1 .424 1.369l-6.096 4.176 2.35 6.963a.75.75 0 0 1-.71.99Z">
+              </path>
+            </svg>
+            <svg width="16" height="16" fill="none" stroke="#e99f46" stroke-linejoin="round" stroke-width="1"
+              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M22.5 9.75h-8.063L12 2.25l-2.438 7.5H1.5l6.563 4.5-2.532 7.5L12 17.062l6.469 4.688-2.532-7.5 6.563-4.5Z">
+              </path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about-section" class="section">
+    <div class="about-text-div section-title-div">
+      <p>&#8212; About Us &#8212;</p>
+      <h1>Learn More <span>About Us</span></h1>
+    </div>
+    <div class="about-container">
+      <div class="about-div">
+        <div class="about-text-container">
+          <div>
+            <h1>Why Us?</h1>
+          </div>
+          <div>
+            <span>
+              <p>1</p>
+            </span>
+            <p> We use only the freshest, high-quality ingredients for unbeatable flavor in every burger.</p>
+          </div>
+          <div>
+            <span>
+              <p>2</p>
+            </span>
+            <p>Enjoy hot, delicious burgers delivered to your door quickly and efficiently.</p>
+          </div>
+          <div>
+            <span>
+              <p>3</p>
+            </span>
+            <p>Our friendly and reliable team ensures a great experience from order to delivery.</p>
+          </div>
+        </div>
+        <div class="about-image-container"><img src="images/about-1.png" alt="" class="about-images"></div>
+      </div>
+      <div class="about-div about-div-2">
+        <div class="about-image-container"><img src="images/about-2.png" alt="" class="about-images"></div>
+        <div class="about-text-container">
+          <h1>Location & Operation</h1>
+          <p>Our burger joint is conveniently located in the heart of downtown, making it easy for you to drop by and
+            enjoy a delicious meal. We operate daily from 10 AM to 10 PM, ensuring you can satisfy your burger cravings
+            anytime. Whether you choose to dine in, order for pickup, or enjoy our fast and reliable delivery service,
+            we are dedicated to providing you with exceptional food and service.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div>
+      <a href=""><svg width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round"
+          stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+        </svg>
+        <p>primepatties.fb.com</p>
+      </a>
+      <a href=""><svg width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round"
+          stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5 0-.278-.028-.556-.08-.83A7.72 7.72 0 0 0 23 3Z">
+          </path>
+        </svg>
+        <p>primapatties.x.com</p>
+      </a>
+      <a href=""><svg width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round"
+          stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <path d="M17.5 6.5h.01"></path>
+        </svg>
+        <p>primepatties.ig.com</p>
+      </a>
+    </div>
+    <div>
+      <p class="copyright">All Right Reserved 2024</p>
+    </div>
+  </footer>
+</body>
+<script>
+  const orderNowButtons = document.querySelectorAll('.order-now'); // Select all order-now buttons
+
+  orderNowButtons.forEach((button, index) => {
+    const cartIcon = button.nextElementSibling; // Assuming cart-icon is a sibling of order-now button
+
+    button.addEventListener('mouseover', () => {
+      button.style.width = '175px';
+      cartIcon.style.display = 'flex';
+      cartIcon.style.transform = 'translateX(100px)';
+    });
+
+    button.addEventListener('mouseout', () => {
+      button.style.width = '';
+      cartIcon.style.display = '';
+      cartIcon.style.transform = '';
+    });
+  });
+
+  const menu = document.querySelector('.menu-button');
+  const nav = document.querySelector('.nav-menu');
+
+  showMenu();
+  function showMenu() {
+
+    // SHOW MENU WHEN CLICK THE MENU BUTTON
+
+    menu.addEventListener('click', () => {
+      nav.style.transform = 'translateX(0vw)';
+      hideMenuWhenClickOutside();
+      hideMenu();
+    });
+
+  }
+
+  // HIDE MENU WHEN CLICK CLOSE BUTTON
+  function hideMenu() {
+    const close = document.querySelector('.close-menu-button');
+    close.addEventListener('click', () => {
+      nav.style.transform = 'translateX(150vw)';
+    });
+  }
+
+  // HIDE MENU WHEN CLICK OUTSIDE THE MENU
+  function hideMenuWhenClickOutside() {
+
+    document.addEventListener('click', (event) => {
+      if (!event.target.closest('.nav-menu') && !event.target.closest('.menu-button')) {
+        nav.style.transform = 'translateX(150vw)';
+      }
+    });
+  }
+
+  // CLOSE THE NAV WHEN CLICK THE NAV BUTTONS
+  const mediaQuery = window.matchMedia('(max-width: 850px)');
+    if (mediaQuery.matches) {
+      document.querySelectorAll('.header-nav-button').forEach((button) => {
+      button.addEventListener('click', () => {
+        nav.style.transform = 'translateX(150vw)';
+      })
+    });
+    }
+   
+
+
+
+</script>
+
+</html>
