@@ -353,6 +353,7 @@ section::before {
   position: relative;
   /* border: red solid; */
   margin-top: 0;
+  overflow: hidden;
 }
 #recipe-section::before {
   content: '';
